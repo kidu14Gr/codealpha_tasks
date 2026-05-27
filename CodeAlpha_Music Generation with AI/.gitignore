@@ -1,0 +1,24 @@
+.venv/
+venv/
+__pycache__/
+*.py[cod]
+.pytest_cache/
+.mypy_cache/
+
+# Large raw MIDI corpus (download locally)
+data/midi/
+!data/midi/.gitkeep
+
+# Regenerated preprocessed cache (optional to commit notes.pkl for convenience)
+# data/notes.pkl
+# data/vocab.pkl
+
+.env
+*.log
+
+# Runtime outputs (sample outputs in output/ may be committed)
+output/*.wav
+output/*.mp3
+
+# Checkpoints except best weights
+models/checkpoints/

@@ -1,0 +1,63 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>AI Music Studio</title>
+    <link rel="stylesheet" href="{{ url_for('static', filename='style.css') }}" />
+  </head>
+  <body>
+    <div class="app">
+      <header class="hero">
+        <div>
+          <h1>AI Music Studio</h1>
+          <p>LSTM-powered symbolic music generation with temperature control</p>
+        </div>
+        <img src="{{ url_for('assets_file', filename='training_loss.png') }}" alt="Training loss" class="loss-thumb" onerror="this.style.display='none'" />
+      </header>
+
+      <section class="panel controls">
+        <h2>Generation Settings</h2>
+
+        <label>
+          Temperature: <span id="tempValue">{{ default_temp }}</span>
+          <input id="temperature" type="range" min="{{ min_temp }}" max="{{ max_temp }}" step="0.05" value="{{ default_temp }}" />
+          <small>Lower = structured, higher = creative</small>
+        </label>
+
+        <label>
+          Notes to generate: <span id="notesValue">{{ default_notes }}</span>
+          <input id="numNotes" type="range" min="100" max="{{ max_notes }}" step="10" value="{{ default_notes }}" />
+        </label>
+
+        <label>
+          Variations
+          <input id="numOutputs" type="range" min="1" max="5" step="1" value="4" />
+          <span id="outputsValue">4</span>
+        </label>
+
+        <label>
+          Genre (optional)
+          <select id="genre">
+            <option value="">Auto</option>
+            {% for g in genres %}
+            <option value="{{ g }}">{{ g|capitalize }}</option>
+            {% endfor %}
+          </select>
+        </label>
+
+        <button id="generateBtn" class="btn primary">Generate Music</button>
+        <p id="status" class="status"></p>
+      </section>
+
+      <section class="panel outputs">
+        <h2>Generated Tracks</h2>
+        <div id="fileList" class="file-list">
+          <p class="muted">Click Generate Music to create MIDI files.</p>
+        </div>
+      </section>
+    </div>
+
+    <script src="{{ url_for('static', filename='app.js') }}"></script>
+  </body>
+</html>
