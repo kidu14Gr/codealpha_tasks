@@ -1,0 +1,96 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>LingoFlow - AI Language Translation Tool</title>
+    <link rel="stylesheet" href="style.css" />
+  </head>
+  <body>
+    <div class="app-shell">
+      <header class="topbar card">
+        <div>
+          <h1>LingoFlow</h1>
+          <p>Professional AI-powered language translation tool</p>
+        </div>
+        <button id="themeToggle" class="btn ghost" type="button" aria-label="Toggle dark mode">
+          <span id="themeLabel">Dark Mode</span>
+        </button>
+      </header>
+
+      <section class="recent-pairs card">
+        <h2>Recent Language Pairs</h2>
+        <div id="recentPairsContainer" class="pill-row">
+          <span class="empty-hint">No recent pairs yet.</span>
+        </div>
+      </section>
+
+      <main class="translator-grid">
+        <section class="panel card">
+          <div class="panel-header">
+            <h2>Source Text</h2>
+            <div class="header-actions">
+              <button id="copySourceBtn" class="btn subtle" type="button">Copy</button>
+              <button id="speakSourceBtn" class="btn subtle" type="button">Speak</button>
+            </div>
+          </div>
+
+          <div class="language-row">
+            <label for="sourceLang">From</label>
+            <select id="sourceLang"></select>
+          </div>
+
+          <textarea
+            id="sourceText"
+            placeholder="Type or paste text to translate..."
+            spellcheck="true"
+            maxlength="5000"
+          ></textarea>
+
+          <div class="meta-row">
+            <span id="charCount">0 / 5000</span>
+            <span id="detectedLang" class="detected"></span>
+          </div>
+        </section>
+
+        <div class="middle-controls">
+          <button id="swapBtn" class="btn primary" type="button" aria-label="Swap languages">Swap</button>
+          <button id="clearBtn" class="btn ghost" type="button">Clear</button>
+        </div>
+
+        <section class="panel card">
+          <div class="panel-header">
+            <h2>Translated Text</h2>
+            <div class="header-actions">
+              <button id="copyTargetBtn" class="btn subtle" type="button">Copy</button>
+              <button id="speakTargetBtn" class="btn subtle" type="button">Speak</button>
+            </div>
+          </div>
+
+          <div class="language-row">
+            <label for="targetLang">To</label>
+            <select id="targetLang"></select>
+          </div>
+
+          <div id="outputBox" class="output-box" aria-live="polite"></div>
+
+          <div id="loadingState" class="loading hidden" role="status" aria-live="polite">
+            <span class="spinner"></span>
+            Translating...
+          </div>
+        </section>
+      </main>
+
+      <section class="history card">
+        <h2>Translation History (Session)</h2>
+        <ul id="historyList">
+          <li class="empty-hint">Your last 10 translations will appear here.</li>
+        </ul>
+      </section>
+    </div>
+
+    <div id="toastContainer" class="toast-container" aria-live="assertive" aria-atomic="true"></div>
+
+    <script src="app.js"></script>
+  </body>
+</html>
