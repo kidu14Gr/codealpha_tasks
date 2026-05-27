@@ -1,0 +1,9 @@
+Flask==3.0.3
+flask-cors==4.0.1
+nltk==3.8.1
+numpy==1.26.4
+pyspellchecker==0.8.1
+scikit-learn==1.5.1
+scipy==1.13.1
+sentence-transformers==3.0.1
+torch==2.3.1

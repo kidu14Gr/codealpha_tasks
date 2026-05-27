@@ -1,0 +1,48 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>CloudDesk FAQ Assistant</title>
+    <link rel="stylesheet" href="style.css" />
+  </head>
+  <body>
+    <div class="app">
+      <header class="chat-header card">
+        <div class="bot-profile">
+          <div class="avatar">CD</div>
+          <div>
+            <h1>CloudDesk FAQ Assistant</h1>
+            <p><span class="dot"></span> Online</p>
+          </div>
+        </div>
+        <div class="header-actions">
+          <button id="themeToggle" class="btn subtle" type="button">Dark Mode</button>
+          <button id="clearChatBtn" class="btn subtle" type="button">Clear Chat</button>
+        </div>
+      </header>
+
+      <section class="suggestions card">
+        <h2>Suggested Questions</h2>
+        <div id="suggestionChips" class="chip-grid"></div>
+      </section>
+
+      <main id="chatWindow" class="chat-window card">
+        <div class="message bot">
+          <div class="bubble">
+            Hi, I am your FAQ assistant. Ask me anything about CloudDesk plans, billing, account settings, and support.
+          </div>
+          <span class="time" id="welcomeTime"></span>
+        </div>
+      </main>
+
+      <footer class="input-bar card">
+        <input id="messageInput" type="text" placeholder="Type your question here..." />
+        <button id="sendBtn" class="btn primary" type="button">Send</button>
+      </footer>
+    </div>
+
+    <div id="toastContainer" class="toast-container"></div>
+    <script src="app.js"></script>
+  </body>
+</html>

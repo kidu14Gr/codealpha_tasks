@@ -1,0 +1,242 @@
+[
+  {
+    "id": 1,
+    "category": "Account",
+    "question": "How do I create a new account on CloudDesk?",
+    "answer": "Click Sign Up on the homepage, enter your work email, choose a strong password, and verify your email address from the confirmation link."
+  },
+  {
+    "id": 2,
+    "category": "Account",
+    "question": "I did not receive my verification email. What should I do?",
+    "answer": "Check your spam or promotions folder first. If it is still missing, click Resend Verification in the login page and ensure your email address is typed correctly."
+  },
+  {
+    "id": 3,
+    "category": "Account",
+    "question": "How can I reset my password?",
+    "answer": "Use the Forgot Password option on the login page. We will send a secure reset link to your registered email address."
+  },
+  {
+    "id": 4,
+    "category": "Account",
+    "question": "Can I change the email linked to my account?",
+    "answer": "Yes. Go to Profile Settings > Account Details, update your email, and complete verification from the new inbox."
+  },
+  {
+    "id": 5,
+    "category": "Account",
+    "question": "How do I enable two-factor authentication?",
+    "answer": "Open Security Settings, turn on Two-Factor Authentication, then scan the QR code with an authenticator app like Google Authenticator or Authy."
+  },
+  {
+    "id": 6,
+    "category": "Account",
+    "question": "Why is my account locked?",
+    "answer": "Accounts are temporarily locked after multiple failed login attempts for security. Wait 15 minutes or reset your password to unlock sooner."
+  },
+  {
+    "id": 7,
+    "category": "Billing",
+    "question": "What payment methods do you accept?",
+    "answer": "We accept major credit and debit cards, PayPal, and bank transfer for annual enterprise plans."
+  },
+  {
+    "id": 8,
+    "category": "Billing",
+    "question": "How can I update my billing information?",
+    "answer": "Go to Billing > Payment Methods in your workspace settings and edit your card details or add a new payment method."
+  },
+  {
+    "id": 9,
+    "category": "Billing",
+    "question": "Where can I download my invoices?",
+    "answer": "Invoices are available in Billing > Invoices. You can download each invoice as a PDF at any time."
+  },
+  {
+    "id": 10,
+    "category": "Billing",
+    "question": "Do you offer monthly and yearly plans?",
+    "answer": "Yes. Monthly plans are flexible, while yearly plans include a discounted rate compared to monthly billing."
+  },
+  {
+    "id": 11,
+    "category": "Billing",
+    "question": "Can I cancel my subscription anytime?",
+    "answer": "Yes. You can cancel anytime from Billing Settings. Your paid features remain active until the current billing period ends."
+  },
+  {
+    "id": 12,
+    "category": "Billing",
+    "question": "Do you provide refunds after renewal?",
+    "answer": "Refunds are evaluated case-by-case and depend on your plan terms. Contact support within 7 days of renewal for review."
+  },
+  {
+    "id": 13,
+    "category": "Billing",
+    "question": "What happens if my payment fails?",
+    "answer": "We retry failed payments automatically and send reminder emails. If payment still fails, your workspace may move to a limited mode."
+  },
+  {
+    "id": 14,
+    "category": "Plans",
+    "question": "What is included in the Free plan?",
+    "answer": "The Free plan includes basic task management, limited storage, and up to 3 team members."
+  },
+  {
+    "id": 15,
+    "category": "Plans",
+    "question": "What is the difference between Pro and Enterprise?",
+    "answer": "Pro is ideal for growing teams and includes advanced automations. Enterprise adds SSO, custom security controls, and a dedicated success manager."
+  },
+  {
+    "id": 16,
+    "category": "Plans",
+    "question": "Can I upgrade or downgrade my plan later?",
+    "answer": "Yes. You can change plans anytime from Billing Settings. Charges are prorated based on your current billing cycle."
+  },
+  {
+    "id": 17,
+    "category": "Plans",
+    "question": "Do you offer discounts for students or nonprofits?",
+    "answer": "Yes. Eligible students and nonprofit organizations can apply for special discounted pricing through our sales team."
+  },
+  {
+    "id": 18,
+    "category": "Technical Support",
+    "question": "The app is running slowly. How can I fix it?",
+    "answer": "Try refreshing the page, clearing browser cache, and disabling heavy extensions. If the issue continues, check our status page for incidents."
+  },
+  {
+    "id": 19,
+    "category": "Technical Support",
+    "question": "How do I report a bug?",
+    "answer": "Open Help > Report a Bug and include steps to reproduce, screenshots, and your browser version so our team can investigate quickly."
+  },
+  {
+    "id": 20,
+    "category": "Technical Support",
+    "question": "Which browsers are supported?",
+    "answer": "We support the latest two versions of Chrome, Firefox, Edge, and Safari for best performance and security."
+  },
+  {
+    "id": 21,
+    "category": "Technical Support",
+    "question": "Why am I seeing a 500 server error?",
+    "answer": "A 500 error usually indicates a temporary backend issue. Retry after a minute, then contact support if it persists."
+  },
+  {
+    "id": 22,
+    "category": "Technical Support",
+    "question": "Can I use CloudDesk on mobile devices?",
+    "answer": "Yes. You can use our iOS and Android apps or access the responsive web app in mobile browsers."
+  },
+  {
+    "id": 23,
+    "category": "Integrations",
+    "question": "Does CloudDesk integrate with Slack?",
+    "answer": "Yes. Connect Slack from Integrations to receive task alerts, reminders, and workflow notifications directly in channels."
+  },
+  {
+    "id": 24,
+    "category": "Integrations",
+    "question": "How do I connect Google Calendar?",
+    "answer": "Go to Integrations > Google Calendar, authorize your account, and choose which project events should sync."
+  },
+  {
+    "id": 25,
+    "category": "Integrations",
+    "question": "Do you provide an API for developers?",
+    "answer": "Yes. Our REST API is available on Pro and Enterprise plans. You can generate API tokens under Developer Settings."
+  },
+  {
+    "id": 26,
+    "category": "Integrations",
+    "question": "Can I use webhooks for real-time updates?",
+    "answer": "Yes. Create webhook endpoints in Developer Settings to receive events like task creation, status updates, and comments."
+  },
+  {
+    "id": 27,
+    "category": "Security",
+    "question": "How is my data protected?",
+    "answer": "We encrypt data in transit using TLS and at rest using AES-256. We also enforce strict access controls and security monitoring."
+  },
+  {
+    "id": 28,
+    "category": "Security",
+    "question": "Are you compliant with GDPR?",
+    "answer": "Yes. CloudDesk supports GDPR requirements, including data access, correction, and deletion requests."
+  },
+  {
+    "id": 29,
+    "category": "Security",
+    "question": "Do you support single sign-on (SSO)?",
+    "answer": "Yes. SSO with SAML and OIDC is available on Enterprise plans."
+  },
+  {
+    "id": 30,
+    "category": "Security",
+    "question": "How can I request account data deletion?",
+    "answer": "Submit a deletion request from Privacy Settings or contact support from your registered account email."
+  },
+  {
+    "id": 31,
+    "category": "Collaboration",
+    "question": "How do I invite team members to my workspace?",
+    "answer": "Go to Workspace Settings > Members, enter teammate emails, assign roles, and send invitations."
+  },
+  {
+    "id": 32,
+    "category": "Collaboration",
+    "question": "Can I assign different roles to users?",
+    "answer": "Yes. Available roles include Owner, Admin, Member, and Viewer, each with different permissions."
+  },
+  {
+    "id": 33,
+    "category": "Collaboration",
+    "question": "How can I mention someone in a comment?",
+    "answer": "Type @ followed by the teammate name in comments. They will receive a notification."
+  },
+  {
+    "id": 34,
+    "category": "Collaboration",
+    "question": "Can external clients access only specific projects?",
+    "answer": "Yes. Add them as Guest users and restrict access to selected projects only."
+  },
+  {
+    "id": 35,
+    "category": "Data & Export",
+    "question": "How do I export project data?",
+    "answer": "Open Project Settings > Export and choose CSV or JSON format for tasks, comments, and activity logs."
+  },
+  {
+    "id": 36,
+    "category": "Data & Export",
+    "question": "Can I import tasks from Trello or Asana?",
+    "answer": "Yes. Use the Import tool in Settings to map and migrate boards or tasks from supported platforms."
+  },
+  {
+    "id": 37,
+    "category": "Data & Export",
+    "question": "How often is data backed up?",
+    "answer": "We run automated backups daily, with additional replication to ensure data durability."
+  },
+  {
+    "id": 38,
+    "category": "Notifications",
+    "question": "How do I turn off email notifications?",
+    "answer": "Go to Notification Preferences and disable the email events you no longer want to receive."
+  },
+  {
+    "id": 39,
+    "category": "Notifications",
+    "question": "Can I customize push notification settings?",
+    "answer": "Yes. Mobile push preferences can be configured from both in-app Notification Settings and your device settings."
+  },
+  {
+    "id": 40,
+    "category": "Onboarding",
+    "question": "Do you have tutorials for new users?",
+    "answer": "Yes. Visit the Help Center for guided tutorials, short videos, and onboarding checklists for teams."
+  }
+]
