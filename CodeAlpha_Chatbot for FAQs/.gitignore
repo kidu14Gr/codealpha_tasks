@@ -1,3 +1,48 @@
+# Python virtual environments
+.venv/
+venv/
+env/
+.env
+
+# Environment secrets (keep .env.example tracked)
+.env.local
+.env.*.local
+
+# Bytecode and caches
 __pycache__/
-*.pyc
+*.py[cod]
+*$py.class
+*.so
+.Python
+
+# Test / type / lint caches
+.pytest_cache/
+.mypy_cache/
+.ruff_cache/
+.coverage
+htmlcov/
+.tox/
+.nox/
+
+# Packaging
+*.egg-info/
+.eggs/
+dist/
+build/
+*.egg
+
+# Runtime data
 feedback.json
+
+# Logs
+*.log
+logs/
+
+# OS
+.DS_Store
+Thumbs.db
+
+# Editors (optional local settings)
+.idea/
+*.swp
+*.swo
