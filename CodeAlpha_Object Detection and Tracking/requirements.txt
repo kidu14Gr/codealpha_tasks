@@ -1,0 +1,14 @@
+opencv-python==4.10.0.84
+ultralytics==8.2.103
+numpy==1.26.4
+scipy==1.13.1
+filterpy==1.4.5
+torch==2.3.1
+torchvision==0.18.1
+
+# Optional: enable DeepSORT backend (falls back to SORT if missing)
+deep-sort-realtime==1.3.2
+
+# Demo GIF export for README
+imageio==2.34.2
+pillow==10.4.0

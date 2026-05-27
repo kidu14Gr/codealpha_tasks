@@ -1,0 +1,21 @@
+.venv/
+venv/
+__pycache__/
+*.py[cod]
+.pytest_cache/
+
+# YOLO downloaded weights cache
+runs/
+*.pt
+!assets/.gitkeep
+
+# Runtime outputs
+output/*.mp4
+output/*.avi
+output/logs/
+output/capture_*.jpg
+
+.env
+*.log
+
+.DS_Store
